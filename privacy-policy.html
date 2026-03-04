@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Política de Privacidad | OTP Vault</title>
+    <style>
+      :root {
+        --bg: #f6f7fb;
+        --card: #ffffff;
+        --text: #111827;
+        --muted: #4b5563;
+        --accent: #0f766e;
+        --line: #e5e7eb;
+      }
+      body {
+        margin: 0;
+        font-family: "Avenir Next", "Segoe UI", sans-serif;
+        color: var(--text);
+        background: radial-gradient(circle at 15% 0%, #dff8f1 0, transparent 30%), var(--bg);
+      }
+      .wrap {
+        max-width: 900px;
+        margin: 32px auto;
+        padding: 0 16px;
+      }
+      .card {
+        background: var(--card);
+        border: 1px solid var(--line);
+        border-radius: 14px;
+        padding: 24px;
+      }
+      h1,
+      h2 {
+        margin: 0 0 12px;
+      }
+      h1 {
+        font-size: 2rem;
+      }
+      h2 {
+        margin-top: 24px;
+        font-size: 1.2rem;
+      }
+      p,
+      li {
+        line-height: 1.55;
+        color: var(--muted);
+      }
+      .meta {
+        margin: 6px 0 0;
+      }
+      a {
+        color: var(--accent);
+      }
+      footer {
+        margin-top: 24px;
+        border-top: 1px solid var(--line);
+        padding-top: 16px;
+        color: var(--muted);
+      }
+      code {
+        background: #f3f4f6;
+        padding: 2px 6px;
+        border-radius: 6px;
+      }
+    </style>
+  </head>
+  <body>
+    <main class="wrap">
+      <article class="card">
+        <h1>Política de Privacidad - OTP Vault</h1>
+        <p class="meta"><strong>Última actualización:</strong> 4 de marzo de 2026</p>
+
+        <h2>1. Responsable</h2>
+        <p>
+          El responsable de esta extensión es el desarrollador publicado en la ficha de Chrome Web Store
+          ("nosotros").
+        </p>
+
+        <h2>2. Datos que se procesan</h2>
+        <p><strong>2.1 Datos almacenados localmente en tu navegador</strong></p>
+        <ul>
+          <li>Cuentas OTP importadas o agregadas manualmente (nombre, issuer, secreto OTP, algoritmo, dígitos y período).</li>
+          <li>Estado local de licencia y preferencias de configuración.</li>
+        </ul>
+
+        <p><strong>2.2 Datos enviados a nuestro backend de licencia</strong></p>
+        <ul>
+          <li>Identificador técnico de instalación (<code>installId</code>).</li>
+          <li>Estado y fechas de prueba/licencia.</li>
+          <li>Identificador de sesión de checkout cuando decides pagar.</li>
+        </ul>
+
+        <p><strong>2.3 Datos de pago</strong></p>
+        <ul>
+          <li>Los pagos se procesan en Stripe Checkout.</li>
+          <li>No recopilamos ni almacenamos números de tarjeta en la extensión.</li>
+        </ul>
+
+        <h2>3. Finalidad del tratamiento</h2>
+        <ul>
+          <li>Generar códigos OTP para autenticación en dos pasos.</li>
+          <li>Administrar la prueba de 30 días y el estado de licencia.</li>
+          <li>Procesar la activación de licencia después del pago.</li>
+        </ul>
+
+        <h2>4. Compartición de datos</h2>
+        <p>Compartimos datos solo con proveedores necesarios para operar el servicio:</p>
+        <ul>
+          <li>Stripe (procesamiento de pago).</li>
+          <li>Infraestructura de hosting/backend (si aplica).</li>
+        </ul>
+        <p>No vendemos datos personales.</p>
+
+        <h2>5. Conservación</h2>
+        <ul>
+          <li>Datos locales: hasta que desinstales la extensión o elimines cuentas manualmente.</li>
+          <li>Datos de licenciamiento en backend: mientras sea necesario para operación, soporte y obligaciones legales.</li>
+        </ul>
+
+        <h2>6. Seguridad</h2>
+        <p>
+          Aplicamos medidas razonables de seguridad para proteger la información. En producción, las
+          comunicaciones deben realizarse por HTTPS.
+        </p>
+
+        <h2>7. Derechos del usuario</h2>
+        <p>
+          Puedes solicitar acceso, corrección o eliminación de datos del backend mediante el correo de soporte
+          publicado en la ficha de la extensión.
+        </p>
+
+        <h2>8. Menores de edad</h2>
+        <p>La extensión no está dirigida específicamente a menores de edad.</p>
+
+        <h2>9. Cambios a esta política</h2>
+        <p>
+          Podemos actualizar esta política para reflejar cambios técnicos, legales o del servicio. Publicaremos
+          la versión vigente en esta misma URL.
+        </p>
+
+        <h2>10. Contacto</h2>
+        <p>
+          Correo de soporte: <strong>soporte@tudominio.com</strong><br />
+          Sitio web: <strong>https://tudominio.com</strong>
+        </p>
+
+        <footer>
+          OTP Vault
+        </footer>
+      </article>
+    </main>
+  </body>
+</html>
